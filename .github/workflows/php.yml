@@ -21,3 +21,11 @@ jobs:
         with:
           name: debug-output
           path: output.log
+          
+      - uses: php-actions/composer@v6
+
+      - name: PHPUnit Tests
+        uses: php-actions/phpunit@v3
+        env:
+          TEST_NAME: Scarlett
+        
