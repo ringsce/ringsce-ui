@@ -1,0 +1,4 @@
+  "scripts": {
+   "build": "babel index.js -d dist",
+    "start": "npm run build && node dist/index.js"
+  }
