@@ -5,6 +5,14 @@ import php.Lib;
 import openfl.display.Bitmap;
 import openfl.display.Sprite;
 import openfl.Assets;
+import haxe.Timer;
+import openfl.display.FPS;
+import openfl.events.Event;
+import openfl.system.System;
+import openfl.text.TextField;
+import openfl.text.TextFormat;
+
+
 
 // Main function
 class Main extends Sprite
@@ -15,6 +23,10 @@ class Main extends Sprite
 		Lib.println('Haxe is great!');
 
         super();
+
+		var fps:FPS = new FPS(10, 100, 0xffffff);
+		addChild(fps);
+
         
         var bitmap = new Bitmap(Assets.getBitmapData("assets/openfl.png"));
         addChild(bitmap);
@@ -42,6 +54,40 @@ class Main extends Sprite
 		keys[evt.keyCode] = true;
 	
 	}
+
+
+	// onEnter function 
+	private function onEnter(_)
+
+		{	
+	
+			var now = Timer.stamp();
+	
+			times.push(now);
+	
+			
+	
+			while (times[0] < now - 1)
+	
+				times.shift();
+	
+				
+	
+			var mem:Float = Math.round(System.totalMemory / 1024 / 1024 * 100)/100;
+	
+			if (mem > memPeak) memPeak = mem;
+	
+			
+	
+			if (visible)
+	
+			{	
+	
+				text = "FPS: " + times.length + "\nMEM: " + mem + " MB\nMEM peak: " + memPeak + " MB";	
+	
+			}
+	
+		}
 	
 	
 	
