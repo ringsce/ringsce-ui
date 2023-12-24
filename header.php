@@ -23,7 +23,7 @@
                     <li class="nav-item"><a class="nav-link" href="reader/">Reader</a></li>
                     <li class="nav-item"><a class="nav-link" href="store.php">Store</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacts.php">Contacts</a></li>
-                </ul><a class="btn btn-primary shadow" role="button" href="https://liberapay.com/plvicente">Fund</a>
+                </ul><a class="btn btn-primary shadow" role="button" href="login.php">Login</a>
             </div>
         </div>
     </nav>
