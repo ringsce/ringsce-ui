@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - King and Lairs</title>
-    <meta name="description" content="(C) 2019-2023 Pedro Dias Vicente">
+    <meta name="description" content="(C) 2016-2023 Kreatyve Designs">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
 </head>
@@ -19,7 +19,6 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="ringsce/index.php">RingsCE</a></li>
                     <li class="nav-item"><a class="nav-link" href="projects.php">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="reader/">Reader</a></li>
                     <li class="nav-item"><a class="nav-link" href="store.php">Store</a></li>
