@@ -33,7 +33,7 @@ Every person can contribute to the project itself. Inside the contributions, we 
 You can contact us here. Or try to chat with us at discord: plvicente
 
 
-## direct contributors
+## Direct Contributors
 Pedro Dias Vicente - pdvicente@gleentech.com
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](pdvicente@gleentech.com)
