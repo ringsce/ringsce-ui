@@ -5,11 +5,12 @@ FROM ubuntu:22.04
 # LABEL about the custom image
 LABEL maintainer="pdvicente@gleentech.com"
 LABEL version="0.1"
-LABEL description="This is a custom Docker Image for PHP and Haxe."
+LABEL description="This is a custom Docker Image for Ekron RPG."
 
 # Disable Prompt During Packages Installation
 ARG DEBIAN_FRONTEND=noninteractive
 
+# Update
 RUN apt update
 
 # Install nginx, php-fpm and supervisord from ubuntu repository
