@@ -1,6 +1,7 @@
 package;
 
 // imports
+import php.Lib;
 import openfl.display.Bitmap;
 import openfl.display.Sprite;
 import openfl.Assets;
@@ -9,6 +10,8 @@ import openfl.Assets;
 class Main extends Sprite
 {
 	public function new() {
+		Lib.println('Haxe is great!');
+
         super();
         
         var bitmap = new Bitmap(Assets.getBitmapData("assets/openfl.png"));

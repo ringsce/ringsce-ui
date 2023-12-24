@@ -31,5 +31,4 @@ Every person can contribute to the project itself. Inside the contributions, we 
 ## Contact us
 You can contact us here. Or try to chat with us at discord: plvicente
 
-
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](pdvicente@gleentech.com)
