@@ -9,7 +9,7 @@ For silicon compatibility mode we need to use gtk3 editor and gtk3 framework fro
 ## Our Goals
 Our goal for this project is to deliver an open-source game engine. We want to make the difference, delivering a game engine for our needs and customers.
 To get started, we need to have now a m1+ for building our own json library and XML library. For older versions we must use the freePascal code folder.
-Deliiver or even available a plugin for wordpress on the discussion matter. Building a plugin for mailing list. 
+Deliver or even available a plugin for wordpress on the discussion matter. Building a plugin for mailing list. 
 
 ## Database goals
 
