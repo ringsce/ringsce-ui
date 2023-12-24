@@ -14,6 +14,7 @@ RUN apt update
 
 # Install nginx, php-fpm and supervisord from ubuntu repository
 RUN apt install -y lighthhtpd php-fpm supervisor
+RUN apt install -y haxe python3 nginx sqlite3
 RUN rm -rf /var/lib/apt/lists/*
 RUN apt clean
 
