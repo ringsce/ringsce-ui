@@ -9,6 +9,8 @@ import openfl.Assets;
 // Main function
 class Main extends Sprite
 {
+	private var keys:Array;
+
 	public function new() {
 		Lib.println('Haxe is great!');
 
@@ -24,4 +26,30 @@ class Main extends Sprite
         Actuate.tween(bitmap, 3, { alpha: 1 });
         Actuate.tween(bitmap, 6, { scaleX: 1, scaleY: 1 }).ease(Elastic.easeOut);
     }
+
+	// keyboard functions
+
+	private function onKeyDown(evt:KeyboardEvent):Void {
+
+		trace("Char code: " + evt.charCode);
+	
+		trace("Key code: " + evt.keyCode);
+	
+	}
+
+	private function onKeyDown(evt:KeyboardEvent):Void {
+
+		keys[evt.keyCode] = true;
+	
+	}
+	
+	
+	
+	private function onKeyUp(evt:KeyboardEvent):Void {
+	
+		keys[evt.keyCode] = false;
+	
+	}
+	
+	
 }

@@ -21,7 +21,7 @@ it's compatible with Lazarus-ide version 3. Already done the change.
 Here, we will find a parser and a reader for processing the data inside the openkrown data file folder. This library will be inside the data-dir folder. With this parser, we can manipulate the data from the zip content folder.
 
 ## Documentation
-To build this project, we must use brew install, freePascal, gtk3 and vs code package editor, haxe for html5 version.
+To build this project, we must use brew install, freePascal, gtk3 and vs code package editor, Haxe for html5 version.
 
 brew install gtk+3
 For more information about compiling and installing go to the documentation folder on https://ringscejs.gleentech.com/docs
